@@ -70,8 +70,9 @@ public class MapsActivity extends AppCompatActivity {
     private static final float NORMAL_ZOOM = 15f;
     private static final float NEARBY_PLACES_ZOOM = 12f;
     private static final int PROXIMITY_RADIUS = 5000;
-    // my places API key, has to be configured for the IP it is being used for
-    private static final String PLACES_API_KEY = "AIzaSyBBiipyoBIyMemiKh8o2d9cvLndKN9Xj6g";
+    // put API key below (enabled for Google Places API)
+    // can be the same one as entered in the google_maps_api.xml file
+    private static final String PLACES_API_KEY = "";
 
     // booleans
     private boolean locationPermGranted = false;
