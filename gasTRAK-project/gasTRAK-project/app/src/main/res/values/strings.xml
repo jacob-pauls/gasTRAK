@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">gasTRAK</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="drawer_open">Open drawer</string>
-    <string name="drawer_close">Close drawer</string>
-</resources>

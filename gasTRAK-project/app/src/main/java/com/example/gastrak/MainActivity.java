@@ -4,21 +4,31 @@ package com.example.gastrak;
 // 300273666
 // File Name: MainActivity.java
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.RelativeSizeSpan;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     static boolean isClicked = false;
     // declare progress dialog for loading procedure
     static ProgressDialog pDialog;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,11 +82,13 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    // show a progress dialog while the map is loading and permissions are checked
     public void showProgressDialog() {
         pDialog = new ProgressDialog(MainActivity.this);
         pDialog.setMessage("gasTRAK is Loading");
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(false);
+        pDialog.setTitle("Please wait...");
         pDialog.show();
     }
 }

@@ -5,6 +5,9 @@
         <item>@font/cabin</item>
         <item>@font/fjalla_one</item>
         <item>@font/poppins_bold</item>
+        <item>@font/raleway_extrabold</item>
+        <item>@font/raleway_medium</item>
         <item>@font/ubuntu</item>
+        <item>@font/viga</item>
     </array>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mi_main"
+            android:icon="@drawable/ic_main_icon"
+            android:title="Gas Map" />
+        <item
+            android:id="@+id/mi_vehicle_profiles"
+            android:icon="@drawable/ic_vehicle_profile"
+            android:title="Vehicle Profiles" />
+        <item
+            android:id="@+id/mi_fuel_efficiency_calculator"
+            android:icon="@drawable/ic_efficiency_calculator"
+            android:title="Fuel Efficiency Calculator" />
+        <item
+            android:id="@+id/mi_previous_trips"
+            android:icon="@drawable/ic_previous_trips"
+            android:title="Previous Trips" />
+        <item
+            android:id="@+id/mi_upload_prices"
+            android:icon="@drawable/ic_upload_prices"
+            android:title="Upload Fuel Prices" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/mi_instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="Instagram" />
+        </menu>
+    </item>
+
+</menu>

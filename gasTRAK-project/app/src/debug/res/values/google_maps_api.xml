@@ -1,4 +1,4 @@
 <resources>
     <!-- INSERT API KEY BELOW -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBBiipyoBIyMemiKh8o2d9cvLndKN9Xj6g</string>
 </resources>
