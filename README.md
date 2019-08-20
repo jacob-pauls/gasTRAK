@@ -1,7 +1,7 @@
 # gasTRAK-App
 **Gas Station Tracking/Pricing Information Project for CSIS 3175**
 
-**ISCLAIMER: This was an extremely long project that I am still working on and have ideas for. Test it out for yourself! Simply because this documentation does if very little justice.**
+**DISCLAIMER: This was an extremely long project that I am still working on and have ideas for. Test it out for yourself! Simply because this documentation does if very little justice.**
 
 **Documentation for gasTRAK used as a final project**
 - *Douglas College*
