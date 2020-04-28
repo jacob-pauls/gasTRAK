@@ -1,11 +1,11 @@
 # gasTRAK-App
 **Gas Station Tracking/Pricing Information Project for CSIS 3175**
 
-**DISCLAIMER: This was an extremely long project that I am still working on and have ideas for. Test it out for yourself! Simply because this documentation does if very little justice.**
+**DISCLAIMER: This was an extremely long project that I worked on from January 2019 - August 2019. It was my first time using version control. So expect the git configuration to be a little messy or dated. As of Spring 2020, I still need to commit the changes from August 2019. I still love this project with my whole heart, but definitely see fit to revamp this idea in a platform/framework for both iOS and Android. Doing this would also make code cleanup/code revamp a test of foresight as opposed to taking days to modify an Android specific app that I could make better elsewhere. Thanks!**
 
 **Documentation for gasTRAK used as a final project**
 - *Douglas College*
-- *Course: CSIS 3175 (Introduction to Mobile App Development)*
+- *Course: CSIS 3175 (Introduction to Mobile App Development) & CSIS 4175 (Mobile App Development II)*
 - *Created By: Jacob Pauls*
 
 ## OVERVIEW & FEATURES:
@@ -34,11 +34,18 @@
 
   - Fuel Statistics:
     - The amount of useful data this application collects is significant. The inclusion of fuel statistics can help show ACTUAL value in downloading and consistently using the app. Figures to be considered would include Total Savings, most frequent gas station, cost per week/month, avg fuel efficiency, etc.
-  - External Database for Pricing Data:
-    - Would be a permanent database to hold record for each gas stations price (trip and vehicle data could stay local to the device)
-  - Other:
-    - Create new vehicle profile FROM Fuel Efficiency Calculator using generated number
-    - Use the price submitted at the end of a trip upload to the database as the the map price. This would reduce the necessity for users to explicitly upload prices through the app.
+    
+## ADDED IN SUMMER 2019 (NOT COMMITTED):
+  
+  - Worked on server-side/external databases:
+    - All gas-related information is stored in an AWS EC2 server with a MySQL database.
+    - All location/places/gas station information is stored in a Firebase.
+  - Added autocomplete/location suggestions when searching for gas stations.
+  - Fixed marker algorithm (sorting isn't as accurate as it could be in Winter 2020 release, sometimes colour mixups occurred)
+  - Refined UI, only one search bar is present along with the drawer for easy navigation.
+  - **Unfinished:** Started working on gas station notifications:
+    - User can request to receive notifications if a gas station price drops below a certain threshold within a given timespan.
+  - Fixed various bugs/small detail work present from Winter 2020 release.   
     
 ## REFERENCES:
 
