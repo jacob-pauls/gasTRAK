@@ -4,9 +4,9 @@
 **DISCLAIMER: This was an extremely long project that I worked on from June 2019 - December 2019. It was my first time using version control, as a result, the final commit with the Fall 2019 features was committed all at once. I still love this project with my whole heart, but definitely see fit to revamp this idea in a platform/framework for both iOS and Android. Thanks!**
 
 **Documentation for gasTRAK used as a final project**
-  *Douglas College*
-  *Course: CSIS 3175 (Introduction to Mobile App Development) & CSIS 4175 (Mobile App Development II)*
-  *Created By: Jacob Pauls*
+ - *Douglas College*
+ - *Course: CSIS 3175 (Introduction to Mobile App Development) & CSIS 4175 (Mobile App Development II)*
+ - *Created By: Jacob Pauls*
 
 ## OVERVIEW & FEATURES:
 
@@ -47,14 +47,17 @@
   - Fuel Statistics:
     - The amount of useful data this application collects is significant. The inclusion of fuel statistics can help show ACTUAL value in downloading and consistently using the app. Figures to be considered would include Total Savings, most frequent gas station, cost per week/month, avg fuel efficiency, etc.  
     
-## Retrospective (as of Fall 2020)
+## RETROSPECTIVE (as of Fall 2020)
 
 **When I started gasTRAK, I had no idea that the idea would manifest as well as it did. Looking back on it in Fall 2020, there are two main - "general" - takeaways that I've taken and applied to my other projects:**
   - Code with maintainability in mind first. Focus less on the fact that a particular method, section of code, or algorithm "works".
   - Using version control from the start, using it consistently, and using it correctly.
   
 **As of Fall 2020, gasTRAK is still (what I would consider) to be a valuable idea. It's quite evident that the future development of gasTRAK would have to be using a framework such as React Native or Flutter in order to have availability for both Android and iOS.**
-**However, if I were to ever "redo" or at least "re-engineer" gasTRAK, it would be with maintainability in mind from the start. It would involve a team, a planning phase, and would be executed with a specific vision in mind. The best part about a college project is that you can afford self discovery, remain constantly curious, and deviate from the features. As a result of my time spent being curious, I have a plethora of different ideas and features that may have been missed if this was a "serious" (business related) project from the start.**
+
+**However, if I were to ever "redo" or at least "re-engineer" gasTRAK, it would be with maintainability in mind from the start. It would involve a team, a planning phase, and would be executed with a specific vision in mind. The best part about a college project is that you can afford self discovery, remain constantly curious, and deviate from the features.** 
+
+**As a result of my time spent being curious, I have a plethora of different ideas and features that may have been missed if this was a "serious" (business related) project from the start.**
 	
 ## REFERENCES:
 
