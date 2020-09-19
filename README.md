@@ -50,8 +50,10 @@
 ## RETROSPECTIVE (as of Fall 2020)
 
 **When I started gasTRAK, I had no idea that the idea would manifest as well as it did. Looking back on it in Fall 2020, there are two main - "general" - takeaways that I've taken and applied to my other projects:**
-  - Code with maintainability in mind first. Focus less on the fact that a particular method, section of code, or algorithm "works".
-  - Using version control from the start, using it consistently, and using it correctly.
+
+  - Code with maintainability in mind first. Focus less on the fact that a particular method, section of code, or algorithm "works" the first time creating it. Break your code down into efficient, effective, and sustainable code that promotes high-reuse (instead of using an enumerable amount of overloaded methods for each possible situation/use case).
+  
+  - Using version control from the start, using it consistently, and using it correctly. At the start, git and GitHub were simply used as places to store backups for this project. Even while working alone, the ability to see all feature changes and progress would have been extremely useful during the lifecycle of this project.
   
 **As of Fall 2020, gasTRAK is still (what I would consider) to be a valuable idea. It's quite evident that the future development of gasTRAK would have to be using a framework such as React Native or Flutter in order to have availability for both Android and iOS.**
 
