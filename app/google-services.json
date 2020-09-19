@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "772684648811",
+    "firebase_url": "https://affable-berm-245517.firebaseio.com",
+    "project_id": "affable-berm-245517",
+    "storage_bucket": "affable-berm-245517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772684648811:android:e9f7a0fa233f8f0cfdfc2e",
+        "android_client_info": {
+          "package_name": "com.example.gastrak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772684648811-tu205dfb0p3dgnb930l2pi2o3vcps4kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gastrak",
+            "certificate_hash": "c0ef88fbfd5bc803167e6f7f48623c19cf29b852"
+          }
+        },
+        {
+          "client_id": "772684648811-ofie6r4uclg8svpdkp6ur8mst508k86g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrGL0U-P5Sp-FyZdnqBYlfD319kCwxidA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772684648811-ofie6r4uclg8svpdkp6ur8mst508k86g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
