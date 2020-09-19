@@ -8,6 +8,8 @@
  - *Course: CSIS 3175 (Introduction to Mobile App Development) & CSIS 4175 (Mobile App Development II)*
  - *Created By: Jacob Pauls*
 
+**Check out my demo for the app here (audio cuts out slightly): https://www.youtube.com/watch?v=5TMy_OkbraQ**
+
 ## OVERVIEW & FEATURES:
 
   - Programmed in Java using the Android Studio framework
