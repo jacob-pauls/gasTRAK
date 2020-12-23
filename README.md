@@ -1,4 +1,4 @@
-# gasTRAK-App
+# gasTRAK
 **Gas Station Tracking/Pricing Information Project for CSIS 3175/CSIS 4175**
 
 **DISCLAIMER: This was an extremely long project that I worked on from June 2019 - December 2019. It was my first time using version control, as a result, the final commit with the Fall 2019 features was committed all at once. I still love this project with my whole heart, but definitely see fit to revamp this idea in a platform/framework for both iOS and Android. Thanks!**
